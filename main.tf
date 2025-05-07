@@ -6,7 +6,7 @@
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-002f6e91abff6eb96"
+    ami = "ami-062f0cc54dbfd8ef1"
     instance_type = "t2.nano"
     tags = {
       Name = "manasarao"
